@@ -1,5 +1,5 @@
-main: main.c
-	cc main.c -o myshell
+main: src/main.c
+	cc src/main.c -o myshell
 
 clean: 
 	rm myshell
