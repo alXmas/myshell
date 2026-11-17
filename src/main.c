@@ -8,4 +8,8 @@ int main() {
   return EXIT_SUCCESS;
 }
 
-void hande_command(void) {}
+void hande_command(void) {
+  while (1) {
+    printf("hande_command\n");
+  }
+}
