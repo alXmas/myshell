@@ -9,7 +9,13 @@ int main() {
 }
 
 void hande_command(void) {
-  while (1) {
-    printf("hande_command\n");
-  }
+  char *line;
+  int status;
+
+  do {
+    printf("> ");
+    line = read_line();
+
+    free(line);
+  } while (status);
 }
