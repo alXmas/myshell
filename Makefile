@@ -1,2 +1,2 @@
-shell: main.c
-	$(CC) main.c -o shell -Wall -Wextra -pedantic -std=c23
+shell: src/main.c
+	$(CC) src/main.c -o shell -Wall -Wextra -pedantic -std=c23
